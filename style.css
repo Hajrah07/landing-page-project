@@ -1,10 +1,12 @@
 body {
     font-family: Roboto;
+    margin: 0;
+    font-size: 18px;
 }
 
 .header {
     background-color: #1F2937;
-    padding: 0 162px;
+    padding: 0 200px;
     margin: 0;
 }   
 
@@ -25,7 +27,6 @@ ul {
 }
 
 .link, .secondary {
-    font-size: 18px;
     color: #E5E7E8;
     gap: 16px;
 }
@@ -58,10 +59,47 @@ button {
 
 .image {
     background-color:  #7e8591;
-    font-size: 18px;
     width: 300;
     padding: 100px;
     color: #E5E7E8;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+}
+
+.text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 16px;
+    text-align: center;
+}
+
+.random_image {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.img-text {
+    display: flex;
+    gap: 48px;
+    margin: 24px;
+}
+
+.random-subtext {
+    width: 150px;
+}
+
+.subtext {
+    padding: 8px 0;
     text-align: center;
 }
 

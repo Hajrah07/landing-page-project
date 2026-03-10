@@ -2,6 +2,8 @@ body {
     font-family: Roboto;
     margin: 0;
     font-size: 18px;
+    display:flex;
+    flex-direction: column;
 }
 
 .header {
@@ -70,7 +72,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 24px;
+    margin: 24px 0;
+    padding: 16px 200;
 }
 
 .text {
@@ -101,5 +104,34 @@ button {
 .subtext {
     padding: 8px 0;
     text-align: center;
+}
+
+.quote-background {
+    background-color: #E5E7EB;
+    margin:0;
+    padding: 100 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial {
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.thor {
+    align-self: flex-end;
 }
 

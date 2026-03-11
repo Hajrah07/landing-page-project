@@ -8,8 +8,9 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 0 200px;
+    padding: 0 100px;
     margin: 0;
+
 }   
 
 .text_link, .link {
@@ -112,14 +113,12 @@ button {
     padding: 100 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 .quote {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 700px;
     margin: 0;
     padding: 0;
@@ -135,3 +134,34 @@ button {
     align-self: flex-end;
 }
 
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin: 64px;
+    padding: 32px 100px;
+    border-radius: 5px;
+    color:white;
+    width: 600px;
+}
+
+.call {
+    font-weight: 900;
+}
+
+.message {
+    font-size: 12px;
+}
+
+.last-button {
+    border: 2px solid white;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7E8;
+    margin: 0;
+    padding: 24px 64px;
+}
